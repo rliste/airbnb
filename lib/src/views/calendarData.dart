@@ -1,3 +1,4 @@
+import 'package:airbnb_rigel/src/views/detail.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:sizer/sizer.dart';
@@ -56,9 +57,16 @@ class _CalendarDataState extends State<CalendarData> {
             ),
           ),
           Stack(children: [
-            Container(
+            IconButton(
+              alignment: Alignment.topLeft,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Detail()),
+                );
+              },
               padding: EdgeInsets.only(left: 6.0.w),
-              child: Icon(
+              icon: Icon(
                 Icons.arrow_back_outlined,
                 color: Color.fromRGBO(33, 45, 82, 1),
               ),
@@ -77,7 +85,7 @@ class _CalendarDataState extends State<CalendarData> {
               ),
             )
           ]),
-          SizedBox(height: 4.0.h),
+          SizedBox(height: 1.8.h),
           Center(
               child: Container(
             height: 42.0.h,

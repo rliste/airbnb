@@ -149,7 +149,12 @@ class _Pagina2State extends State<Pagina2> {
                   color: Color.fromRGBO(71, 148, 255, 1),
                   borderRadius: BorderRadius.all(Radius.circular(10.0))),
               child: TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => SingUp()),
+                  );
+                },
                 child: Center(
                     child: Text('Get Started',
                         style: TextStyle(

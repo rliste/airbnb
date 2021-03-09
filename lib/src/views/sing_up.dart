@@ -154,7 +154,12 @@ class _SingUpState extends State<SingUp> {
                   fontSize: 11.0.sp),
             ),
             TextButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Home()),
+                );
+              },
               child: Text('Sing in',
                   style: TextStyle(
                     fontSize: 11.8.sp,
