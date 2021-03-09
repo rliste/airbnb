@@ -1,12 +1,9 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:sizer/sizer.dart';
 import 'package:intl/intl.dart';
 
 import 'package:syncfusion_flutter_datepicker/datepicker.dart';
-import 'package:date_format/date_format.dart';
 
 class CalendarData extends StatefulWidget {
   @override
@@ -23,8 +20,8 @@ class _CalendarDataState extends State<CalendarData> {
   String _fechaSalida;
   String _diaEntrada;
   String _diaSalida;
-  DateTime fechaEntradaDateTime = DateTime.now();
-  DateTime fechaSalidaDateTime = DateTime.now().add(const Duration(days: 2));
+  DateTime fechaEntradaDateTime;
+  DateTime fechaSalidaDateTime;
 
   @override
   void initState() {
@@ -367,7 +364,6 @@ class _CalendarDataState extends State<CalendarData> {
 
               monthCellStyle: DateRangePickerMonthCellStyle(
                   //Celdas del calendario
-                  specialDatesDecoration: BoxDecoration(color: Colors.green),
                   disabledDatesTextStyle: TextStyle(
                       color: Color.fromRGBO(140, 152, 191, 1),
                       fontWeight: FontWeight.w500,
@@ -383,11 +379,6 @@ class _CalendarDataState extends State<CalendarData> {
 
               monthViewSettings: DateRangePickerMonthViewSettings(
                   //Settings celdas
-
-                  specialDates: <DateTime>[
-                    fechaEntradaDateTime,
-                    fechaSalidaDateTime
-                  ],
                   viewHeaderStyle: DateRangePickerViewHeaderStyle(
                       textStyle: TextStyle(
                           color: Color.fromRGBO(140, 152, 191, 1),

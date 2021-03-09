@@ -135,7 +135,7 @@ class _CardHome1State extends State<CardHome1> {
                 borderRadius: BorderRadius.circular(20.0),
                 child: Image(
                   // width: 80.0.w,
-                  height: 28.0.h,
+                  height: 32.0.h,
                   fit: BoxFit.fill,
                   image: NetworkImage(
                     'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/edc090120peart-005-1595519364.jpg',
@@ -206,7 +206,7 @@ class _CardHome1State extends State<CardHome1> {
         Padding(
           padding: EdgeInsets.only(left: 43.0.w),
           child: IconButton(
-            padding: EdgeInsets.only(top: 42.0.h),
+            padding: EdgeInsets.only(top: 46.0.h),
             onPressed: () {
               setState(() {
                 _isPressed = !_isPressed;
@@ -216,12 +216,12 @@ class _CardHome1State extends State<CardHome1> {
                 ? Icon(
                     Icons.favorite_outlined,
                     color: Color.fromRGBO(71, 148, 255, 1),
-                    size: 3.0.h,
+                    size: 3.5.h,
                   )
                 : Icon(
                     Icons.favorite_outline,
                     color: Color.fromRGBO(71, 148, 255, 1),
-                    size: 3.0.h,
+                    size: 3.5.h,
                   ),
           ),
         ),
@@ -274,7 +274,7 @@ class _CardHome2State extends State<CardHome2> {
                 borderRadius: BorderRadius.circular(20.0),
                 child: Image(
                   // width: 80.0.w,
-                  height: 28.0.h,
+                  height: 32.0.h,
                   fit: BoxFit.fill,
                   image: NetworkImage(
                     'https://i.pinimg.com/originals/52/8b/64/528b64f9ae3ce0e09f30e7bd0e656fe1.jpg',
@@ -345,7 +345,7 @@ class _CardHome2State extends State<CardHome2> {
         Padding(
           padding: EdgeInsets.only(left: 43.0.w),
           child: IconButton(
-            padding: EdgeInsets.only(top: 42.0.h),
+            padding: EdgeInsets.only(top: 46.0.h),
             onPressed: () {
               setState(() {
                 _isPressed = !_isPressed;
@@ -355,12 +355,12 @@ class _CardHome2State extends State<CardHome2> {
                 ? Icon(
                     Icons.favorite_outlined,
                     color: Color.fromRGBO(71, 148, 255, 1),
-                    size: 3.0.h,
+                    size: 3.5.h,
                   )
                 : Icon(
                     Icons.favorite_outline,
                     color: Color.fromRGBO(71, 148, 255, 1),
-                    size: 3.0.h,
+                    size: 3.5.h,
                   ),
           ),
         ),
@@ -413,7 +413,7 @@ class _CardHome3State extends State<CardHome3> {
                 borderRadius: BorderRadius.circular(20.0),
                 child: Image(
                   // width: 80.0.w,
-                  height: 28.0.h,
+                  height: 32.0.h,
                   fit: BoxFit.fill,
                   image: NetworkImage(
                     'http://static1.squarespace.com/static/56f2595e8a65e2db95a7d983/59708dbdb3db2bb651d60316/5cc2df23f16856000141c9aa/1556628432039/Luxury+Interiors+%281%29.jpg?format=1500w',
@@ -484,7 +484,7 @@ class _CardHome3State extends State<CardHome3> {
         Padding(
           padding: EdgeInsets.only(left: 43.0.w),
           child: IconButton(
-            padding: EdgeInsets.only(top: 42.0.h),
+            padding: EdgeInsets.only(top: 46.0.h),
             onPressed: () {
               setState(() {
                 _isPressed = !_isPressed;
@@ -494,12 +494,12 @@ class _CardHome3State extends State<CardHome3> {
                 ? Icon(
                     Icons.favorite_outlined,
                     color: Color.fromRGBO(71, 148, 255, 1),
-                    size: 3.0.h,
+                    size: 3.5.h,
                   )
                 : Icon(
                     Icons.favorite_outline,
                     color: Color.fromRGBO(71, 148, 255, 1),
-                    size: 3.0.h,
+                    size: 3.5.h,
                   ),
           ),
         ),

@@ -92,7 +92,7 @@ class _HomeState extends State<Home> {
                 });
               }).toList(),
               options: CarouselOptions(
-                height: 68.0.w,
+                height: 70.0.w,
                 //aspectRatio: 2.0,
                 autoPlay: false,
                 viewportFraction: 0.52,
@@ -108,8 +108,8 @@ class _HomeState extends State<Home> {
                 },
               ),
             ),
-            SizedBox(height: 2.0.h),
-            _botoneraInferior()
+            SizedBox(height: 3.0.h),
+            SafeArea(child: _botoneraInferior())
           ],
         ));
   }

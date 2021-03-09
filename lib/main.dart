@@ -1,9 +1,6 @@
-import 'package:airbnb_rigel/src/views/calendarData.dart';
-import 'package:airbnb_rigel/src/views/detail.dart';
-
 import 'package:airbnb_rigel/src/views/home.dart';
 import 'package:airbnb_rigel/src/views/intro.dart';
-import 'package:airbnb_rigel/src/views/sing_up.dart';
+
 import 'package:flutter/material.dart';
 
 import 'package:sizer/sizer_util.dart';
@@ -26,7 +23,7 @@ class MyApp extends StatelessWidget {
             SizerUtil().init(constraints, orientation); //initialize SizerUtil
             return MaterialApp(
               debugShowCheckedModeBanner: false,
-              home: CalendarData(),
+              home: Home(),
             );
           },
         );
