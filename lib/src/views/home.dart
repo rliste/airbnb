@@ -95,7 +95,7 @@ class _HomeState extends State<Home> {
                 height: 70.0.w,
                 //aspectRatio: 2.0,
                 autoPlay: false,
-                viewportFraction: 0.12.w,
+                viewportFraction: 0.52,
                 autoPlayInterval: Duration(seconds: 3),
                 autoPlayAnimationDuration: Duration(milliseconds: 800),
                 autoPlayCurve: Curves.fastOutSlowIn,
